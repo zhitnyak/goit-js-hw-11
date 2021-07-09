@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+}
+section {
+  min-width: 616px;
+  max-width: 800px;
+  height: 157px;
+  margin: auto;
+  text-align: center;
+}
+button,
+input {
+  border-color: rgb(126, 113, 165);
+}
+.timer {
+  padding: 0 16px;
+  background-color: #f0f2f1;
+  display: none;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.field,
+.label {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 1px;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  background-color: rgb(126, 113, 165);
+  color: #fff;
+  display: grid;
+  align-items: center;
+}
+
+.value {
+  font-size: 40px;
+}
+
+span {
+  display: inline-flex;
+  color: rgb(126, 113, 165);
+  font-weight: 500;
+}
